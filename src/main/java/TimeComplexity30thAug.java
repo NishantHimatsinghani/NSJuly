@@ -1,7 +1,57 @@
+import java.util.Arrays;
+import java.util.Random;
+
 public class TimeComplexity30thAug {
 
   public static void main(String[] args) {
-    whatIsTimeComplexity();
+    //whatIsTimeComplexity();
+    //logNComplexity();
+    binarySearch();
+  }
+
+  private static void binarySearch() {
+    int[] input = generateRandomArray(100000);
+    int targetSearchValue = input[0];
+    Arrays.sort(input);
+    //log100000 to the base 2 = 16.609640474437.
+
+
+    int startIndex = 0 ;
+    int endIndex = input.length-1;
+    int counter = 0;
+    while(startIndex <= endIndex) {
+      int midIndex = startIndex + (endIndex - startIndex)/2;
+      //( start + end )/2...the only reason is Integer overflow...2 to the power 32
+      //I would suggest to read on integer data type
+
+      if(input[midIndex] < targetSearchValue) {
+        //it makes no sense to search the left part of array
+        startIndex = midIndex ;
+      } else if(input[midIndex] > targetSearchValue){
+        //it makes no sense to search the right part of array
+        endIndex = midIndex ;
+      } else {
+        System.out.println("We have found" + targetSearchValue + " the value in " + counter + " iterations");
+        break;
+      }
+      counter++;
+    }
+
+  }
+
+  private static void logNComplexity() {
+
+    //Mathematically, what is logN :
+
+
+    int N = 16;
+    while(N > 0) {
+      N/=2; // How many times will this loop execute ?? that is what logarithm is...
+      //16 --> 8 --> 4 --> 2 --> 1 --> 0
+      //In english, how many times do I have to divide N with the value 2 so that I get 0 == logN to the base 2
+    }
+
+
 
 
   }
@@ -47,6 +97,16 @@ public class TimeComplexity30thAug {
      */
 
 
+  }
+
+
+  public static int[] generateRandomArray(int N) {
+    int[] input = new int[N];
+    Random random = new Random();
+    for(int i = 0 ; i < N; i++) {
+      input[i] = random.nextInt();
+    }
+    return input;
   }
 
 }

@@ -33,3 +33,16 @@ Time Complexity :
 
     --We ignore the less significant terms from the time complexity formula.
 
+  LogN Complexity :
+  -- 3 raised to the power of 2 gives us 9
+  -- log9 to base 2  == ~3
+
+  --Merge Sort : N operations at each level * No. Of levels
+    For this example : log7 to the base 2 = 3
+
+  --Binary Search complexity analysis :
+      To search in a sorted collection, what we do is try to eliminate certain set of elements after each step.
+      This helps to get closer to the solution.
+      Find the middle value, compare it with toFindValue, and accordingly throw away half of the current set of elements Until we find our element in the array
+      So, here, like any other logarithmic complexity algo, we see a division by 2.
+      Search space reduces by half every time.
