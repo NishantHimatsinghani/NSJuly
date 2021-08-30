@@ -1,0 +1,35 @@
+
+
+
+
+
+--Instructor Session :
+  --Binary Search Algorithm
+  ---Revision of Sorting Algo on 27th Aug
+
+
+
+
+
+
+Time Complexity :
+  TC is a metric used to determine the efficiency of algorithms....to compare the efficiency
+
+  Why do we in particular have chose size of input as the varying factor to calculate the TC?
+    --O(N), O(f(N))....N == size of the input over which my algorithm is running..
+    --The size of input is the only factor of the algorithm that is HARDWARE AGNOSTIC
+
+    --We are calculating the number of iterations/operations that are performed by the algorithm as a
+        function of N(size of input)
+
+    --Whenever we are calculating the time complexity, we often think about WORST-CASE.
+        Because the input is not in the programmers control. It is unpredictable.
+        So we consider the worst-case so that we can accordingly generalise the algorithmic analysis between various algorithms.
+    --When we say WORST_CASE, we also increase the size of the input.
+    i.e. to say we assume our N to be very large number
+
+    --Constants add unnecessary complexity to the overall formula without adding much value.
+      --So we ignore constants from the overall formula
+
+    --We ignore the less significant terms from the time complexity formula.
+
