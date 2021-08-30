@@ -1,0 +1,34 @@
+JDK vs JRE vs JVM
+Understanding arrays
+
+
+
+Rohit Bhoriya : 2020 CS passout
+knows the difference between while and do while
+for vs for-each loop : for loop is clear....
+
+Q1.
+write a java program to sum all the number of elements in an array
+initialize the array...
+logic to calculate the sum
+wrote correct syntax and code
+
+
+Q2.
+find out the three largest elements from an without sorting.
+Not able to think about this question. Moving to a simpler question
+
+Q3.
+find out the maximum element in an array
+was able to write code after giving some hints
+
+Q4. o/p of
+
+
+
+
+Atul Nikade :
+Q1. know the diff between while and do while loops
+
+
+

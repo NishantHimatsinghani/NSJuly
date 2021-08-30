@@ -1,0 +1,34 @@
+
+
+Introduction
+    About me
+    About Students -- Name, Engg Stream, Passion, Why NS?,
+    Why Software Development
+        Benefits
+            Scope..requirements keeps on increasing in the market
+            Learner/Student throughout your student.... demandind to upskill always
+            Observer
+            Dedication
+        Cons
+            you have to be a student throughout....
+            effort ...
+            SIMPLE but not EASY
+
+    Software Engg is for
+        Learners
+        Innovators
+        Learn from your mistakes rather than shy away from them
+
+    Path to a successful software developer
+        --Process Oriented
+        --More Walk, Less Talk
+        --Questioning --> If something is not clear, suck the knowledge out of mentors and instructors
+        --Professional --> You do your proper research before asking your question.
+        --Always a Learner, NO matter the experience
+
+
+--Poonam : MTech 2017, Lectureship to Developer
+--Naresh   : 3 years of development....Need of exposure to basics of Software Dev, DSA and for a better opportunity
+--Axay Patel: Msc in organic science....chemist..analyses samples..wants to switch to IT section..as it provides better lifestyle..
+--Anushta Singh : 2020 Food tech passout
+--Ashish Kumar : btech in textile technology 2020...i worked in mayur textile mill for 9 months

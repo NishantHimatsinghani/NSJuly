@@ -1,0 +1,95 @@
+
+
+
+-- Recursion
+  --problems :
+    --Check if a number is Palindrome
+    --Recursive Implementation of atoi()
+    --Program for length of a string using recursion
+    --Recursive Bubble Sort
+    --Recursive Insertion Sort
+    --Tower of Hanoi --> The power of "that willing suspension of disbelief for the moment"
+    --Defective Coin Problem
+
+
+TODO for me :
+Setup github repo and share the code with you guys
+
+
+
+Salman :
+IT passout..2020
+working in DXC tech as Ass Software Engg
+Able to grasp concepts in the instructor sessions conducted till now
+
+
+Aman Prakash :
+Aeronautical Engg...2019 passout
+Working in  Accenture as IT support..dealing with Microsoft products...
+Till now, NS experience has been good enough..
+
+
+
+
+
+=================
+Recursion :
+
+  1.Definition :
+      --recursion is the process of solving a large problem by reducing
+      it to one or more subproblems which are ( I) identical in structure to the original
+      problem and (2) somewhat simpler to solve.
+      --Every recursion solution has a base case. And that is the simplest to solve. So we solve it directly
+      i.e. return the solution.
+       Eg : Fibonacci series : FIB(N) = FIB(N-1) + FIB(N-2) .. the base case is FIB(0) = FIB(1) = 1
+            FIB(N-1) = ?
+  2. Candidates for Recursion :
+      "the decision to use recursion is suggested by the nature of
+      the problem itself. * To be an appropriate candidate for recursive solution, a
+      problem must have three distinct properties:
+      1. It must be possible to decompose the original problem into simpler
+      instances of the same problem.
+      2. Once each of these simpler subproblems has been solved, it must be
+      possible to combine these solutions to produce a solution to the original
+      problem.
+      3. As the large problem is broken down into successively less complex
+      ones, those subproblems must eventually become so simple that they
+      can be solved without further subdivision." --> is the base case
+
+  3. Holistic vs Reductionalism :
+    -- Holistic means to look at a problem as a whole..believing that the sum of every bit is greater than the whole.
+          --Believing in the above principle helps us to write recursive code in an abstract fashion without worrying too much
+            about the details.
+    -- Reductionalism :
+        means to break down all the bigger problem. Take care of the details on how to solve each layer of the problem
+        and then arrive at the bigger solution. This habit acts as a hindrance to write recursion code
+
+  4. Recursion is similar to Mathematical Induction :
+    -- The steps were :
+        --Prove that a particular formula works for N=1
+        --We make an induction hypothesis that the formula works for N=N
+        --And then, final step : to prove that it the formula works for N=N+1
+        --Eg, sum of first N natural numbers :
+          f = N(N+1)/2
+          For N=1 : sum = 1(1+1)/2 = 1
+          For N=N : sum = N(N+1)/2.....this is the induction hypothesis a.k.a Induction Leap Of Faith
+          We want to prove that the solution works for N=N+1
+          sum of N+1 elements = (sum of N elements) + (N+1)
+             (N+1)(N+2)/2       = N(N+1)/2 + (N+1)
+                                = (N2 + 3N + 2)/2
+                                = (N2 + 2N + N + 2)/2
+                                = (N(N+2) + 1(N+2))/2
+                                = (N+2)(N+1)/2
+    --"that willing suspension of disbelief for the moment, that
+      constitutes poetic faith." Such faith is as important to the mathematician and
+      the programmer as it is to the poet.
+
+
+
+
+
+====================
+Next Session Agenda :
+--Intro to Try/Catch Blocks for exception handling
+--TC and SC
+--Backlog Recursive Problems

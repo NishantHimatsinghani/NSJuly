@@ -1,0 +1,85 @@
+Introduction
+    --About me
+    --About Students -- Name, Engg Stream, Passion, Why NS?,
+    -- Software Development
+        Benefits
+            Scope..requirements keeps on increasing in the market
+            Learner/Student throughout your student.... demandind to upskill always
+            Observer
+            Dedication
+        Cons
+            you have to be a student throughout....
+            effort ...
+            SIMPLE but not EASY
+
+    --Software Engg is for
+        Learners
+        Innovators
+        Learn from your mistakes rather than shy away from them
+
+    --Path to a successful software developer
+        --Process Oriented
+        --More Walk, Less Talk
+        --Questioning --> If something is not clear, suck the knowledge out of mentors and instructors
+        --Professional --> You do your proper research before asking your question.
+        --Always a Learner, NO matter the experience
+
+        Instructor Session : Overview of Java..Datatypes, Operator, How to write program in NS Playground......
+
+
+Nandini S: graduated in 2021, EXTC...improving skills on coding...C, Python, Java beginner, came to know NS from friends
+Nani Sarath : 2020 graduate, Civil, interested in Coding. looking to explore into Software.
+Nimesh T : Nagpur, Mechanical 2019 passout, wants to enter IT since the last one year
+Pradeep G : 2019 BCA passout Andhra university, Real Estate Consultant. friend referred them to NS. Left coding earlier due to family issues
+Yaram N : 2010 passed out, Housewife,
+Ashish K : 2020 Textile, Mayur, friends NS, C and C++.
+
+
+Curiculum
+2month -- DSA and Algorithms and Problem Solving :: Using different kinds of data structures to solve problem. JAVA
+2months -- Front Development React
+2 months -- Backend Developement : Node JS, MongoDB ExpressJS
+
+
+Soft skill improvement
+--The one on one sessions
+--The mock interviews
+--Sharing your ideas and view with the Mentor during group discussions
+
+
+logical operators :
+	1.	LOGICAL OPERATOR QUIZ
+The output of the logical operators will be 0 or 1 …for JAVA, they always out either true or false
+How is 0 interpreted in Java ? == false
+1 == true;
+
+System.out.println(3 > 7 && 1 > 0) —> false(Not 0)
+
+(1) —> true
+NON JAVA EXAMPLES
+	1.	 (!0 ) —> (1) —> true
+	2.	 ( 3 % 2 ) —> ‘%’== remainder —> 1 —> true 
+
+JAVA EXAMPLES…applicable in JAVA as well
+	1.	 (5 + 4 < 3 && 7 + 3 <= 20 ) —> false.  false && anything —> false
+
+	1.	 ( 'a' != 'b' - 1) —> 97 != 98-1 === 97 != 97 === false
+	2.	char as a datatype in java. In java, a character is something is enclosed in single inverted commas
+	3.	char variable = ‘a’; // every character value has a corresponding ASCII value(helps to show textual data : American Standard Code For Information Interchange). And this value is an integer. a == 97, b=98, c=99..
+	4.	A=65, B=66, C=67…..  
+	5.	 ( ! (7 == 7 )) ===== (! true) === false; 
+	6.	 ( !1 || !0 ) ===== false ? (False || True) ==== True
+	7.	|| Short Circuit Property : true || anything : true;
+	x++ : inline operators(pre and post increment/decrement operators) 
+	8.	 ( 'a' == 97 ) ==== (97 == 97)===true;  
+
+ANSWERS
+
+	1.	1. not FALSE is TRUE
+	2.	0 ...because 9 < 3 && 10 <= 20 is ....FALSE && TRUE is.... FALSE
+	3.	0 ...because 'a' != 'b' - 1 is the same as 'a' != 'a'. This is clearly FALSE.
+	4.	0 ...because !(7==7) is the same as !TRUE which is FALSE.
+	5.	1 ...because 3 % 2 is equal to 1.
+	6.	1... because !1 || !0 is the same as !TRUE || ! FALSE which is TRUE.
+	7.	1 ....because 'a' can be represented by the ascii character code 97. 'a' == 97 is TRUE!
+

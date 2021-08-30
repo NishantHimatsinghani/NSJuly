@@ -1,0 +1,39 @@
+In the mean time, if any one has any questions/doubts, please feel free to unmute yourselves and speak up OR type here in the chat and I would be glad to help you out
+
+
+
+Mohit Dhawan :
+--This side Mohit Dhawan from Ferozepur Jhirka District Nuh State Haryana India.
+--Recently Graduated B.Tech computer Science Engineering from Kurukshetra University Haryana
+--
+
+
+Akash Jitendra Gayakvad :
+--From Nagpur, working in TCS as Ass. Systems Engg since April 2021
+--2020 passout. CS
+--Looking for FE development. also interested in Java
+--How far has the experience with NS with instructor? -- All topics are understandable.
+
+Kuldeep Kumar :
+--Lucknow, 2020 CS passout
+--they know java intermediate
+--How far has the experience with NS with instructor? --> some problems in sorting algos but able to code
+
+
+Kanhaiya lal :
+--from rajasthan, 2021 passout CS
+--Not working currently
+--Already knew java
+--How far has the experience with NS with instructor? --> Understands everything and can code in java easily
+
+
+Structure :
+--prevs sessions doubts
+--some predefined topics that we discuss.
+
+
+Doubts :
+--https://my.newtonschool.co/playground/code/xw7ajhofavf3/
+--more examples of recursion problems...
+--How does recursion work internally ? explain the concepts
+--Time Complexity and Space Complexity

@@ -1,0 +1,12 @@
+Yaram :
+Spend at max 1 hour of my dedicated time into solving a problem, after which, I move on to the internet
+stackoverflow
+
+
+Q1. while vs do-while loops :
+Has proper understanding of this.
+
+Q2. structure of a for loop
+Has proper understanding of this.
+
+Q3.

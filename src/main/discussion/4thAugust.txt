@@ -1,0 +1,36 @@
+what all was covered in todays Instrcutor class :
+    --conditional statements
+    --ternary operator
+    --for loops and some examples
+
+
+
+Feedback :
+Pros :
+    Concepts are cleared and questions/doubts are answered properly.
+    Topics are easy to understand.
+    interaction in online classes
+    problem solving sessions
+
+
+Problems :
+    when trying to write code hands on
+    facing troubles when running the code in the playground ?
+    facing problems when writing code
+
+Suggestions :
+    More examples can be taken.
+    The timings of group discussion
+
+
+Intro :
+
+
+
+
+
+Topics Discussed :
+    --Install an IDE(Intellij IDE Community Edition) and start writing and executing code over there apart from NS Playground
+    --the psvm basics.
+    --Doubt : If stuck while solving assgns(errors, compiler), they should ask the doubts to the mentor
+    --Chapters to go through from the PDF : 1, 2, 3 ,4

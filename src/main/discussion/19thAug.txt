@@ -1,0 +1,7 @@
+Topics Covered in instructor session :
+Quicksort
+Sorting is done..
+
+
+
+Big O : https://www.youtube.com/watch?v=v4cd1O4zkGw

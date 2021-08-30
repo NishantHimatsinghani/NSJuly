@@ -1,0 +1,11 @@
+Installing Java and IDE on windows :
+https://www.youtube.com/watch?v=EMLTOMdIz4w
+
+
+
+Topics covered in instructor session :
+introduction to Arrays..
+how to declare array, how to assign elements to it and how to access elements
+
+Jayesh Parmar : 2021 CS engineer.
+

@@ -1,0 +1,16 @@
+--Loops continuation : while, switch, do while, for loop, nested for loops, problem
+--
+
+
+Topics to cover :
+-- Head First Loop puzzles/quiz
+--Pattern problems -->
+    --   *
+       * * *
+      * * * *
+
+
+
+
+Vidya Sagar Tiwari : Bhopal, Mech in 2019, left job after 3 months as they are interested in IT field.
+    --
