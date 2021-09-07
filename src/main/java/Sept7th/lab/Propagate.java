@@ -1,4 +1,4 @@
-package Sept7th;
+package Sept7th.lab;
 
 public class Propagate {
 

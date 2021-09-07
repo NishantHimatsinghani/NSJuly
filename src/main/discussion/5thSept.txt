@@ -99,6 +99,9 @@ Exception Handling :
 
 
 
+-QUICKSORT :
+  --https://visualgo.net/en/sorting
+
 
 
 
@@ -158,3 +161,15 @@ Exception Handling :
     * * *
     * *
     *
+
+
+
+
+--next Sessions Agenda :
+  --Functions and basics of it
+  --Adhoc doubts
+  --OOPS..
+    --Polymorphism,
+    --Inheritance,
+    --Abstract Classes.
+    --SOLID higher level version
