@@ -1,0 +1,160 @@
+
+Static messages :
+Hello folks, lets wait a couple more minutes for other students to join over
+In the mean time, if any one has any questions/doubts, please feel free to unmute yourselves and speak up OR type here in the chat and I would be glad to help you out
+
+
+Harshit Jaiswal :
+  --2019 BCA passout in CS..currently pursuing MCA next year passout
+
+Kavita Dnany :
+
+
+Rigved Atul :
+  --2020 passout in CS..current working in Zoriant Solutions as a Ass Software Engg
+  --Not much of coding till now.
+  --How much prior knowledge in CS : Has knowledge of Python, basics of Java. DSA basics..
+
+Agenda :
+--QuickSort
+--Exception Handling
+--Activitity Tracker
+
+
+Exception Handling :
+  --Occurs only in Production Code or Projects. Hardly pops up in Competitive Coding
+  --80-20 rule
+    --Around 80% of the code that you write will hardly run in production.. It will run very rarely
+
+  --Your product and software behind it should be ready for all kinds of user input and the output that you should give in each case
+    --This is why it is often suggested to start off a problem/development by jotting down all the expected/allowed inputs
+
+
+  --(handling vs generating) exception segregation
+    --generates : that we write in the try block in Java
+    --handling : catch block in Java
+
+
+  --a way to tell JVM what code to execute when a certain kind of exception occurs
+  --Pseudocode :
+      try {
+      //Open up a thread/resource
+      getTheFileFromOverNetwork //InputOutput Operation that might go wrong ..Why ? --> Because we are dependent on the Network to properly fetch the file for us
+      readFromTheFileAndPopulateTable
+      ...
+      .....
+      ....
+      }
+      catch(CantGetFileFromNetwork) {
+      displayNetworkErrorMessage // There was a Server Side Issue....Something went wrong...they should try again later or something
+      }
+      finally{
+      close the resources...
+      ...
+      }
+
+  --finally
+    --to clean up resources. Or to do something that takes care of a critical part of the code.
+    --And needs to be executed anyhow....basically this will ALWAYS execute
+
+
+  --ducking the exception
+    --call stack.....
+
+
+
+  --Exercise :
+    1. Create a class called Propagate and a main() method, which will remain
+    empty for now.
+    2. Create a method called reverse. It takes an argument of a String and
+    returns a String.
+    3. In reverse, check whether the String has a length of 0 by using the
+    String.length() method. If the length is 0, the reverse method will
+    throw an exception.
+    4. Now include the code to reverse the order of the String. Because this isn't
+    the main topic of this chapter, the reversal code has been provided, but feel
+    free to try it on your own.
+    String reverseStr = "";
+    for(int i=s.length()-1;i>=0;--i) {
+    reverseStr += s.charAt(i);
+    }
+    return reverseStr;
+    5. Now in the main() method you will attempt to call this method and deal
+    with any potential exceptions. Additionally, you will include a finally
+    statement that displays when main() has finished.
+
+  --Class Tree :
+    --What to put in the catch() clause
+    Throwable -> Exception -> Runtime Exception(ArrayIndexOutOfBoundException),
+                           -> Checked Exceptions(tell your JVM what to do when this exception occurs)
+                                  --Compiler checks if this exception is being handled/thrown by the all the code that is calling it
+              -> Errors...OutOfMemError
+    --checked vs unchecked exceptions
+      --Eg, OutOfMemError
+      throw new Throwable();
+
+  --throws, throw
+    --handle or declare
+
+
+
+
+
+
+
+  --Basic Problems for practise :
+    1. Write a java program to print "Hello World".
+    2. Write a Java program to get input from the user and print it as output.
+    3. Write a java program to get a two-digit number as input and swap the digits.
+    4. Write a java program to get three numbers as input and print the highest and
+    lowest number.
+    5. Write a java program to get a year as input and identify if it is a leap year.
+    6. Write a Java program to get a long number as input and reverse the number.
+    7. Write a program to calculate the area of a triangle and circle.
+    8. Write a function to identify if the number is odd or even.
+    9. A person is eligible to vote if he/she is more than 18 years of age. Write a
+    program to define a method: eligible(age) with int age as a parameter and return
+    "Yes" if they are eligible, "No" if they are not.
+    DSA 1 Practice Questions 2
+    10. Define a method that returns the product of two numbers entered by the user.
+    11. Define a method to find out if the number is prime or not.
+    12. Write a program to print the factorial of a number.
+    13. Rewrite each condition below in valid Java syntax (give a boolean expression):
+    x > y > z
+    x and y are both less than 0
+    neither x nor y is less than 0
+    x is equal to y but not equal to z
+    b. x and y are both less than 0
+    14. Suppose GPA is a variable containing the grade point average of a student.
+    Suppose the goal of a program is to let a student know if he/she made the
+    Dean's list (the GPA must be 3.5 or above). Write an if... else... statement that
+    prints out the appropriate message (either "Congratulations—you made the
+    Dean's List" or "Sorry you didn't make the Dean's List").
+    15. Write a program to determine the raise and new salary for an employee by
+    adding if ... else statements to compute the raise. The input to the program
+    includes the current annual salary for the employee and a number indicating the
+    performance rating (1=excellent, 2=good, and 3=poor). An employee with a
+    rating of 1 will receive a 6% raise, an employee with a rating of 2 will receive a
+    4% raise, and one with a rating of 3 will receive a 1.5% raise.
+    16. Print the following pattern using looping and conditional statements:
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+    DSA 1 Practice Questions 3
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *

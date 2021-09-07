@@ -46,3 +46,8 @@ Time Complexity :
       Find the middle value, compare it with toFindValue, and accordingly throw away half of the current set of elements Until we find our element in the array
       So, here, like any other logarithmic complexity algo, we see a division by 2.
       Search space reduces by half every time.
+
+
+
+Agenda for our next session :
+  --Exception Handling

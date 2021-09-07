@@ -1,0 +1,18 @@
+    1. Create a class called Propagate and a main() method, which will remain
+    empty for now.
+    2. Create a method called reverse. It takes an argument of a String and
+    returns a String.
+    3. In reverse, check whether the String has a length of 0 by using the
+    String.length() method. If the length is 0, the reverse method will
+    throw an exception.
+    4. Now include the code to reverse the order of the String. Because this isn't
+    the main topic of this chapter, the reversal code has been provided, but feel
+    free to try it on your own.
+    String reverseStr = "";
+    for(int i=s.length()-1;i>=0;--i) {
+    reverseStr += s.charAt(i);
+    }
+    return reverseStr;
+    5. Now in the main() method you will attempt to call this method and deal
+    with any potential exceptions. Additionally, you will include a finally
+    statement that displays when main() has finished.
