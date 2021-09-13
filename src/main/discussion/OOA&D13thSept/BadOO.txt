@@ -1,0 +1,28 @@
+Duplicate :
+
+--Eg :
+        DogDoor Application
+        DogDoor :
+          open(){}
+          close(){}
+        Remote to open the door
+        Remote :
+          --if(button is pressed and door is open) {
+              close the door
+            }
+            else if (button is pressed and door is closed) {
+              open the door
+              wait till I make the voice controlled CLOSE command
+              close the door
+
+            }
+
+        BarkRecognizer opens the door as well
+
+        BarkRecognizer :
+            -- if(detect the voice of the Dog) {
+                open the door
+                wait till I make the voice controlled CLOSE command
+                close the door
+              }
+            }

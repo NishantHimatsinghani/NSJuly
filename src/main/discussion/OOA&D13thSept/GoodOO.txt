@@ -1,0 +1,27 @@
+Avoid Duplication :
+
+  DogDoor Application
+          DogDoor :
+            open(){
+              open the door
+              keep the door open for predefined amount of time
+              close the door
+            }
+            close(){}
+          Remote to open the door
+          Remote :
+            --if(button is pressed and door is open) {
+                close the door
+              }
+              else if (button is pressed and door is closed) {
+                DogDoor.open()
+
+              }
+
+          BarkRecognizer opens the door as well
+
+          BarkRecognizer :
+              -- if(detect the voice of the Dog) {
+                  DogDoor.open()
+                }
+              }

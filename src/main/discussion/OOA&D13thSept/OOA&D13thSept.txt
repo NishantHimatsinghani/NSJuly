@@ -1,0 +1,151 @@
+
+
+
+Adhoc Doubts :
+  --Anagram
+     naman1234567890-qwertyuiopasdfghjklzxcvbnm,
+     manansn
+     Explanation: Both String contain 2 'a's, 2 'n's and 1 'm'.
+    --Basically we want to  count the characters in both the words and check if there is equality in them
+    --What do we want to do here ?
+        --Maintain count of each character in both the words.
+        --Then we will check if both the words have the same counts of all the characters
+        --Approach 1 :
+          word1 : {a : 2, n : 0, m : 1},
+          word2 : {a: 2, n : 2, m : 1}
+          if(word1 == word2)..this is what we want to check
+        --Approach 2 :
+            --Form word1 map... TC : O(word1) SC : O(number of unique characters in word1..max=256)
+            --While iteration through the second word,
+                for(character in word 2) { // will depend on length of word 2
+                    if(word1 contains that character) { //For a HashMap : contains works in O(1) time..i.e. constant time
+                    word1.put(character, word1.get()-1)//subtract by 1 and move on
+                    }
+                  else if(word1 does not contain character OR word1.get(character) == 0){ //O(1)
+                    return false;
+                  }
+                } // complexity of for loop : O(len(word2))
+                return true;
+        --Approach 3 :
+            --create array of 256 size(ASCII charset size) //O(1)
+            --increment for word1 // O(L(word1))
+                for(character in word1) {
+                  array[character] ++;
+                }
+            --decrement for word2  O(L(word2))
+                for(character in word2) {
+                  array[[character]--;
+                }
+            --then check if all items in array are 0 : O(256)
+                for(element in array) {
+                  if(element is zero)
+                  else return false;
+                }
+
+              --if yes, return true
+              --if no, return false
+
+        --Approach 2 vs 3 :
+          --App3 uses 256 character no matter what...
+          --App2 uses complex DS to solve the problem
+          --Time Complexity :
+            --App 2 : O(L(word1) + L(word1))
+            --App 3 : O(L(word1) + L(word1) + 256) //here, removing the constant will depend on the problem constraints(size of inputs)
+
+          --Space Complexity :
+            --App 2 : O(256)
+            --App 3 : O(256)
+
+          --Timing them with different sized inputs
+          --Depends on the machines available.
+
+
+OOPS and the principles governing it :
+--WHYs of OOPs???
+  --Requirement Gathering..
+      --Use case (BRD)
+        --this is what we need our product to do
+        --to form a well structured, exhaustive and clear use case diagram/pointers
+        --crystal clear clarity of the use case at hand
+        --written it in very simple words
+      --simple textual analysis
+        --We go through the use case through and figure out the nouns and verbs
+        --Mostly, NOUNS == CLASSES, VERBS == METHODS in your code
+            --Eg DogDoor Application :
+                --DogDoor to allow a dog to pass through
+                --Remote to control the DogDoor
+                --Voice controlled element that will automatically
+                    open the dog door once it hears the bark
+            --NOUNS == DogDoor, Dog, BarkRecognizer, Remote
+            --VERBS == open the door, closing the door, recognizing the voice, pressing buttons on the remote
+
+  --the only constant in software product development
+    --CHANGE
+    --Everytime there is a change in requirements, we need a change in Code.
+    --we want this change to be minimal. less dev time == less cost to the product company
+    --for the cost to be minimal, we want our application to be flexible to changing requirements.
+    --No application is 100% flexible. There always are tradeoffs.
+    --Context will determine if you choose THIS or THAT to be flexible
+    --Business team will tell you the priority. You will get hints from the business as to what might change in the application.
+      --The above point will help to choose between THIS or THAT or.......
+
+  --Converting Use case into OOD
+     --Make careful analysis of Use case and convert it into Class Hierarchies(Relationships among different classes)
+     --UML diagrams to achieve this...
+     --Documentation to easily understand the code
+        --Need not document everything. You have to first document the high-priority items and then slowly move on to other items with time
+
+
+
+
+  --avoid duplication
+    --Whenever you see yourself writing duplicate code, you have to move away from it.
+          --Its time to review your design.
+          --Usual soln : Abstract out the duplicate code into common class
+
+        Above shows the example of writing duplicate code
+    --Why do we want to avoid duplicate code :
+        --if the use case changes, then we don't have to change at all those places where we did the duplication.
+        --And it also improves maintenance of the application
+            --We are doing the DOgDoor Open and close operation.
+            --The functionality of a DogDoor should adhere and only be placed in the DogDoor
+        --Also simplifies testing of the application
+        --Makes you write more code than actually is required.
+            --This is a sign of bad design..smelly design
+
+  --Encapsulate
+      --circling the nouns
+      --Eg, Dog Door use case
+
+  --Loose Coupling
+  --High Cohesion
+
+  --Context matters!
+      --Real world compatibility
+        Eg : Dog class for Dog Door
+  --Delegation
+      --Eg, BarkRecognizer
+
+  --UML diagrams
+    --10000 foot view
+
+  --Another Example of Musical Instruments Shop
+
+
+  --Great Software
+      --does what it is supposed to do ?
+      --Does it used OO principles?
+      --Change in one part of the app make lots of changes in other parts of the app ?
+
+
+  --Coding to Interfaces ...rather than actual implementation
+      --Eg : Athletes and Team
+
+  --Every class should have less of these ?
+      --Single Responsibility Principle
+
+  --Code once, look twice.
+      --Generate a positive feedback loop
+      --More eyes on the code
+      --Design is iterative
+
