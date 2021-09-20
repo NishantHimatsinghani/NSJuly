@@ -1,0 +1,27 @@
+
+
+
+
+
+Discussion on Strings :
+
+--They are Char Arrays
+--String Constant Pool Cache
+
+
+Mutability in String ? :
+  --StringBuffer(thread-safe), StringBuilder
+  --append
+
+--concatenate : append vs '+'
+--equals order
+--String vs charArray for storing sensitive information
+
+
+
+
+
+
+
+Recent Topics Covered in Past few days :
+--LinkedList

@@ -2,6 +2,25 @@
 
 
 Adhoc Doubts :
+  --Vector vs Set :
+      Vector :
+        --Ordered Collection of elements.
+        --We do not care of presence of an element. We do not have to iterate through the collection to determine the presence of elements
+        --If you use vector to determine if an element is present in the collection or not :
+            --for(element in vector) {
+                if(element equal to concerned element) {
+                  return true
+                }
+              }//worst case would be that you have to traverse through the entire collection...O(size of vector) TC
+
+
+      Set :
+        --You do not care about order
+        --When your use case only cares about the presence of an element in the collection
+            --CONTAINS...O(1)
+
+
+
   --Anagram
      naman1234567890-qwertyuiopasdfghjklzxcvbnm,
      manansn
@@ -149,3 +168,22 @@ OOPS and the principles governing it :
       --More eyes on the code
       --Design is iterative
 
+
+
+
+
+
+
+Agenda for next session :
+  --StringBuffer
+  --OOPS cont., code
+  --HashMap
+
+
+
+
+Topics covered in past 2-3 days in instructor sessions :
+  --Quick sort,
+  --Binary Search revision
+  --TC and SC
+  --HashMap, Vector, Set
