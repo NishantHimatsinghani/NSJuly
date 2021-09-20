@@ -80,5 +80,17 @@ public class StringLab {
 
 
 
+    substringExample();
+
+  }
+
+  private static void substringExample() {
+    String input = "    HelloWorld       ";
+    System.out.println(input.trim());//strings are immutable
+    System.out.println(input.substring(1,5));// Prints "   H"
+    //The first index is included
+    //The second argument is not the lenght, but the toIndex is excluded
+
+
   }
 }

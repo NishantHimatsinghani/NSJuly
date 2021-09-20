@@ -41,7 +41,7 @@ Mutability in String ? :
 
 --String vs charArray for storing sensitive information
 
-
+--substring is a utility method in String class that allows me to fetch a part of the string instead of the whole string
 
 
 
@@ -52,6 +52,6 @@ Recent Topics Covered in Past few days :
 
 
 Next Sessions Agenda :
-  --HashCode, Equals in Object
+  --HashCode, Equals in Object class of Java
   --HashMap and its internal workings
   --Hashcode Caching in String Literal by JVM
