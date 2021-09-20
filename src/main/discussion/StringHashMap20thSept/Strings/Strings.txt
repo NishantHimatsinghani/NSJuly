@@ -4,17 +4,41 @@
 
 
 Discussion on Strings :
-
+--Strings are one of the most popular and most commonly used data structures in all-kinda Applications
+--So, the creators of java thought of making a CACHE for strings
 --They are Char Arrays
+  --char[]
+
 --String Constant Pool Cache
+
+--String Objects in Java are IMMUTABLE :
+  --i.e. Once we assign a value to a String literal, it cannot be changed.
+  --WHY ???????? Why did the java creators choose to make Strings as Immutable ???
+    --Pointers in the StringsLab.java class
 
 
 Mutability in String ? :
-  --StringBuffer(thread-safe), StringBuilder
-  --append
+-- We know that strings are immutable :
+  -- String s = "gbbgjrkw" + "grszgs" + "hwrjey4j6y" + "hresjhetsjhest" or by using the s.concat()
+  -- How many string literals will my SCP contain after executing the above code line ??
+      --1 ?? NO...
+      --State of SCP --> "gbbgjrkw", "grszgs", "hwrjey4j6y", "hresjhetsjhest", "the concatenated string"
+      --It created 5 strings.
+      --As a developer, I know that I will never use the smaller strings ever..!!
+      --But, my application has to take care of all the 5 strings.
+
+--Is there a way around this IMMUTABILITY of Strings in Java ??
+  --StringBuffer and StringBuilder comes into picture.
+  --It allows us to treat String Objects as mutable objects
+
+
+--StringBuffer(thread-safe), StringBuilder -- Why do we need?
+--append
 
 --concatenate : append vs '+'
+  --Already explained with StringBuilder
 --equals order
+
 --String vs charArray for storing sensitive information
 
 
@@ -25,3 +49,9 @@ Mutability in String ? :
 
 Recent Topics Covered in Past few days :
 --LinkedList
+
+
+Next Sessions Agenda :
+  --HashCode, Equals in Object
+  --HashMap and its internal workings
+  --Hashcode Caching in String Literal by JVM
