@@ -55,3 +55,4 @@ Next Sessions Agenda :
   --HashCode, Equals in Object class of Java
   --HashMap and its internal workings
   --Hashcode Caching in String Literal by JVM
+  --Share practise problem on TC and SC

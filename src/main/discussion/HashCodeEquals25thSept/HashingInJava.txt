@@ -1,0 +1,112 @@
+
+
+PUT Operation in HM:
+
+Public Integer put(String key, value) {
+Int hash = hash(key); // Compute the hashCode of Key using key.hashCode()
+Node node = new Node(hash, key, value);
+Int bucketIndex = hash % internalHM.length;//this will make sure that the bucketIndex lies between 0 and internalHM.length -1
+if(internalHM[bucketIndex] == null ) {//there is no value in that index...i.e. the bucket is empty
+	internalHM[bucketIndex] = node;
+} else {
+	node.next = internalHM[bucketIndex];
+	internalHM[bucketIndex] = node;//basically, node now becomes the head of the linkedlist present at index internalHM[bucketIndex]
+}
+}
+
+
+HashMap<String, Integer> hm = new .,..... // An array called ‘internalHM’ is created of a fixed size(16)
+public int hashCode() {
+   int h = hash;//1
+   if (h == 0 && value.length > 0) {
+       char val[] = value;
+
+       for (int i = 0; i < value.length; i++) {
+           h = 31 * h + val[i];//ASCII value of the character
+       }
+       hash = h;
+   }
+   return h;
+}
+
+
+
+GET Operation :
+10100110100011110011011 → hash value in binary
+00000000000000000001111
+A & 1 = A
+
+thresholdCapacity(0.75) -- > If my internalHM array gets 75% filled, then we increase the size of my internalHM by 100%. I will have to perform Rehashing(Why ? )
+
+Out of 10000 insertions, I will have to do this rehashing 13-14 times...99987 times the complexity is O(1), it is only the 13 operations that take O()  → Amortized Complexity
+
+HashMap<Integer, RandomClass(address to an object on the heap)> hm;
+
+RandomClass rc = hm.get(0);
+
+
+==================
+Discussion during lecture :
+
+--WHen we say that a HashSet runs contains operation in O(1) time, how exactly does it accomplishes that task.
+--The exact theory and algorithm behind how it does it
+
+--What is the purpose of hashCode in Hashing datastructures in java ?
+  hm.put(key, value);
+  --The hashCode of key determines the bucket in which my value should be put inside the HashMap
+--What is the purpose of Next Pointer in Node class ?
+    --It is used to handle collisions
+    --Two objects that are not equal can also return the same hashCode
+
+
+=======
+GET :
+Integer value = hm.get(key);
+
+get(key) {
+compute the hash of key to get the unique hashcode...hash
+
+bucketIndex = hash % hm.length;
+
+
+}
+--the Right Hand Thumb Rule...
+Suppose two objects are equal.....
+emp1 = new Employee(1)
+
+
+hm.put(emp1, average value that I have computed)
+
+.....
+....
+....
+Employee emp2 = new Employee(1)
+hm.get(emp2);
+emp2.hashCode should return the same value that was returned for emp1.
+
+
+========
+IF WE USE VERY BAD HASHCODE IMPLEMENTING TECHNIQUE
+emp1 = new Employee(1);
+hm.put(emp1, some value);
+
+emp2 = new Employee(2);
+hm.get(emp2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

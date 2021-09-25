@@ -91,6 +91,5 @@ public class StringLab {
     //The first index is included
     //The second argument is not the lenght, but the toIndex is excluded
 
-
   }
 }
