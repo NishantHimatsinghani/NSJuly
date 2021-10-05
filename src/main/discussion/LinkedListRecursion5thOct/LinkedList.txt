@@ -1,0 +1,25 @@
+
+
+One Node owning a reference pointer to the next/neighbouring node
+
+
+Difference with Arrays :
+In LL, every node is connected to the next node
+In Arrays, they are not connected to each other by reference
+
+--How they are stored in memory :
+  For Arrays : its a contiguous/continuous block of memory
+      eg : if input[0] is at location 100 and it takes 5 units of space
+          we know that input[1] will start at location 105
+          It preallocates the memory of the array
+          and this why we cannot change the size of array once we define
+          The only is to copy and paste into the a different array of desired size
+  For LL : The elements are spread across the memory
+    Element1(523672){pointerToEle2}  Element2(4598546){pointerToEle3}              Element3 -----> Element4------>Element5.....and so on
+              |-------------------------------------------------------------------------|
+
+--Arrays has a rigid size
+--LinkedList size can be dynamically increased/decreased
+
+--Removals/Additions in a LL are fast unlike in Arrays
+

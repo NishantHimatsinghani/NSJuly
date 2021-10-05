@@ -1,5 +1,10 @@
 import java.text.DateFormat;
 
+/*
+Hello folks, lets wait a couple more minutes for other students to join over
+In the mean time, if any one has any questions/doubts, please feel free to unmute yourselves and speak up OR type here in the chat and I would be glad to help you out
+
+ */
 public class Aug19thSnippets {
   public static void main(String[] args) {
     insertionSortDesc(false);

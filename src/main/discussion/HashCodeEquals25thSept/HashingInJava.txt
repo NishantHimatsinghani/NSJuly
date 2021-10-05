@@ -94,7 +94,30 @@ emp2 = new Employee(2);
 hm.get(emp2);
 
 
+======
+Array vs ArrayList :
+ArrayList is dynamic . It can change its size very easily and most importantly, behind the scenes.
+  -It promotes functional style of programming. Basically you use expressions to do the work. THis makes it readable
+  -nameOfArrayList.get(i)
+  -nameOfArrayList.delete(i);
+  --NOTE : If you know the size of arraylist that you would need, then initialize an ArrayList of that size
+  ArrayList<Integer> names = new ArrayList<>(10);
+Array -- They are rigid. but very simple and clear to use. You cannot change the size of Array
+  --nameOfArray[i]
+  --very difficult to code very basic operations
 
+NEXT MENTOR SESSION AGENDA :
+  -- Linked List
+  -- Hashing Doubts
+  -- Which DataStructures to give preference to ?
+  -- Recursion 15mins
+Q. How and when to think about edge cases ?
+  --A good elimination technique
+  ----Will help to steer away from bad solutions
+  --Will help you to decide the data structure
+  --Think about it at the very beginning of the problem statement(before solutioning) as much as you can
+  --Bonus points from the interviewer
+  --Common Edge cases : Empty input, single element in the array, duplicates in the array, Negative value in the array
 
 
 

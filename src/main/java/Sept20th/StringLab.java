@@ -1,11 +1,13 @@
 package Sept20th;
 
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class StringLab {
 
   public static void main(String[] args) {
+
     String s1 = "hello";//It creates one String Literal called "hello" and stores it in SCP(String Constant Pool)
     String s2 = "hello";//Here, it is pointing to the same string literal as above
     //This is how Java saves on significant amount of space as Strings are everywhere in the application.
